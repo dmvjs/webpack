@@ -1,10 +1,6 @@
 # appveyor file
 # http://www.appveyor.com/docs/appveyor-yml
 
-branches:
-  only:
-    - master
-
 init:
   - git config --global core.autocrlf input
 
